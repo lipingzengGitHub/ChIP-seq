@@ -25,7 +25,11 @@ Each sample should have its own folder containing ChIP and Input FASTQ files. Th
 
 Place your FASTQ files like this:
 
-data/ ├── Sample1/ │ ├── chip_R1.fastq.gz │ └── input_R1.fastq.gz ├── Sample2/ │ ├── chip_R1.fastq.gz │ └── input_R1.fastq.gz ...
+data/ Sample1/ sample1_R1.fastq.gz 
+
+Sample2/ sample2_R1.fastq.gz 
+
+......
 
 
 ---
