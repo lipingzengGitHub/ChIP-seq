@@ -1,4 +1,4 @@
-# ChIP-seq Analysis Pipeline (Nextflow + Docker)
+### ChIP-seq Analysis Pipeline (Nextflow + Docker)
 
 This pipeline performs full ChIP-seq analysis on multiple samples, including quality control, alignment, peak calling, peak annotation, and signal visualization near TSS.
 
@@ -81,22 +81,6 @@ Bowtie2 index in assets/genome.*
 TSS BED file at BEDfile/TSS.bed
 
 
-# Citation
-If you use this pipeline in your research, please consider citing the relevant tools:
-
-Nextflow
-
-Bowtie2
-
-MACS2
-
-GATK
-
-ChIPseeker
-
-deepTools
-
-MultiQC
 
 
 
