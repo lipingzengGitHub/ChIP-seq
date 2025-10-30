@@ -4,18 +4,6 @@ This pipeline performs full ChIP-seq analysis on multiple samples, including qua
 
 Each sample should have its own folder containing ChIP and Input FASTQ files. The pipeline is powered by [Nextflow](https://www.nextflow.io/) and [Docker](https://www.docker.com/) for portability and reproducibility.
 
-ChIP-seq-project/
-├── BEDfile/
-│   └── TSS.bed
-├── chipseq-pipeline/
-│   └── test_data/... (optional)
-├── scripts/
-│   └── generate_tss_bed.py
-├── ChIP-seq.nf
-├── Dockerfile
-├── nextflow.config
-├── README.md
-├── .gitignore
 
 
 --------
